@@ -1,13 +1,12 @@
 
 <h1 style="text-align: center;">Capstone: Recommender System for Reddit Posts</h1>
 
-***
 
 ## Problem Statement
 
 The goal of this project is to build a recommender system that will take in a description of what a user would like to quantify, in a sentence or paragraph format, and output five URLs of the most similar subreddit `r/QuantifiedSelf` posts. This will allow the user to access what other people are discussing, relevant to users' specific interest.
 
-***
+
 
 ## Executive Summary
 
@@ -32,29 +31,16 @@ This project assists those interested in starting a personal data project, as we
 [Quantified Self Get Started Guide](https://quantifiedself.com/get-started/)<br>
 [Quantified Self Forum](https://forum.quantifiedself.com/c/quantified-self/apps-tools)<br>
 
-***
 
 ## Data
 
-1,403 posts were collected from Reddit's subreddit `QuantifiedSelf` with corresponding 3,483 comments, through the [Praw](https://praw.readthedocs.io/en/latest/) library and [Pushift.io](https://pushshift.io/), combined by Pepper Johnson's code found in [GitHub](https://github.com/pepper-johnson/sack_lunch/blob/master/Notebooks/Bots/Reddit.ipynb) and explained in [How to Scrap Reddit using pushshift.io via Python](https://medium.com/@pasdan/how-to-scrap-reddit-using-pushshift-io-via-python-a3ebcc9b83f4). Posts were created from Sunday, May 29, 2011 to Wednesday, May 15, 2019. Text data was combined from the post's titles, comments, and available self text. Praw's documentation has a description of the data features, on the pages [Submission](https://praw.readthedocs.io/en/latest/code_overview/models/submission.html) and [Comment](https://praw.readthedocs.io/en/latest/code_overview/models/comment.html) sections.
-
-### Notebooks
 [01-Data Collection]()<br>
 [02-Exploratory Data Analysis]()
 
-***
+1,403 posts were collected from Reddit's subreddit `QuantifiedSelf` with corresponding 3,483 comments, through the [Praw](https://praw.readthedocs.io/en/latest/) library and [Pushift.io](https://pushshift.io/), combined by Pepper Johnson's code found in [GitHub](https://github.com/pepper-johnson/sack_lunch/blob/master/Notebooks/Bots/Reddit.ipynb) and explained in [How to Scrap Reddit using pushshift.io via Python](https://medium.com/@pasdan/how-to-scrap-reddit-using-pushshift-io-via-python-a3ebcc9b83f4). Posts were created from Sunday, May 29, 2011 to Wednesday, May 15, 2019. Text data was combined from the post's titles, comments, and available self text. Praw's documentation has a description of the data features, on the pages [Submission](https://praw.readthedocs.io/en/latest/code_overview/models/submission.html) and [Comment](https://praw.readthedocs.io/en/latest/code_overview/models/comment.html) sections.
 
-## Model
+## Model and Recomender System
 
-***
+[03-Topic Modeling]()<br>
+[04-Recommender System]()
 
-## Findings
-
-***
-
-## Next Steps
-
-
-```python
-
-```
