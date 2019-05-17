@@ -22,6 +22,7 @@ A newcomer that searches on Amazon for a fitness device or a mood app in android
 
 This project assists those interested in starting a personal data project, as well as those that would like to read up on what other's in the community are doing or discussing. The recommender system asks the user to describe what they are interested in knowing more about and outputs five URLs that direct to similar subreddit posts.
 
+Click on image below for "The quantified self" YouTube Video from New Scientist.
 [![The Quantified Self YouTube Video from New Scientist](https://img.youtube.com/vi/8wqC6ad1V_Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=8wqC6ad1V_Q)
 
 <br>Further Information of Movement and Other Related Resources:<br>
