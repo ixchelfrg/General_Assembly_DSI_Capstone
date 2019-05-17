@@ -35,13 +35,13 @@ Click on image below for "The quantified self" YouTube Video from New Scientist.
 
 ## Data
 
-[01-Data Collection]()<br>
-[02-Exploratory Data Analysis]()
+[01-Data Collection](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/01_Data_Collection.ipynb)<br>
+[02-Exploratory Data Analysis](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/02_Exploratory_Data_Analysis.ipynb)
 
 1,403 posts were collected from Reddit's subreddit `QuantifiedSelf` with corresponding 3,483 comments, through the [Praw](https://praw.readthedocs.io/en/latest/) library and [Pushift.io](https://pushshift.io/), combined by Pepper Johnson's code found in [GitHub](https://github.com/pepper-johnson/sack_lunch/blob/master/Notebooks/Bots/Reddit.ipynb) and explained in [How to Scrap Reddit using pushshift.io via Python](https://medium.com/@pasdan/how-to-scrap-reddit-using-pushshift-io-via-python-a3ebcc9b83f4). Posts were created from Sunday, May 29, 2011 to Wednesday, May 15, 2019. Text data was combined from the post's titles, comments, and available self text. Praw's documentation has a description of the data features, on the pages [Submission](https://praw.readthedocs.io/en/latest/code_overview/models/submission.html) and [Comment](https://praw.readthedocs.io/en/latest/code_overview/models/comment.html) sections.
 
 ## Model and Recomender System
 
-[03-Topic Modeling]()<br>
-[04-Recommender System]()
+[03-Topic Modeling](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/03_Topic_Modeling.ipynb)<br>
+[04-Recommender System](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/04_Recommender_System.ipynb)
 
