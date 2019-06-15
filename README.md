@@ -48,13 +48,12 @@ Topic Modeling, specifically Latent Dirichlet Allocation was used during explora
 
 Using Scikit-Learn's Latent Dirichlet Allocation algorithm, five topics or "number of components" were output. These did not correspond with initial expectations but did reveal more insight into the content of the posts. 
 
-Description of Topics: 
-
-Topic #0 - Terms associated with the general description of the "QuantifiedSelf" movement; quantified, self, personal, survey, share, model, life, theory, research. 
-Topic #1 - Terms related to Reddit platform; subreddit, review, spam, moderator, comment, request. 
-Topic #2 - Terms that describe the tools or features of these tools that record or export the data; google, export, android, log, tool. 
-Topic #3 - Medical terms or posts that discuss monitoring more granular health data; gyroscope, blood, test, measure, glucose, monitor. 
-Topic #4 - Terms that correspond with the popular trend of using wearables such as Fitbit to monitor activity or sleep; fitbit, device, watch, wearable, activity. 
+#### Description of Topics:
+**Topic #0** - Terms associated with the general description of the "QuantifiedSelf" movement; quantified, self, personal, survey, share, model, life, theory, research.<br>
+**Topic #1** - Terms related to Reddit platform; subreddit, review, spam, moderator, comment, request.<br> 
+**Topic #2** - Terms that describe the tools or features of these tools that record or export the data; google, export, android, log, tool.<br>
+**Topic #3** - Medical terms or posts that discuss monitoring more granular health data; gyroscope, blood, test, measure, glucose, monitor.<br>
+**Topic #4** - Terms that correspond with the popular trend of using wearables such as Fitbit to monitor activity or sleep; fitbit, device, watch, wearable, activity. 
 
 [04-Recommender System](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/04_Recommender_System.ipynb)
 
