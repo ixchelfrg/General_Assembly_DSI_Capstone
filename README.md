@@ -4,13 +4,13 @@
 
 ## Problem Statement
 
-The goal of this project is to build a recommender system that will take in a description of what a user would like to quantify, in a sentence or paragraph format, and output five URLs of the most similar subreddit `r/QuantifiedSelf` posts. This will allow the user to access what other people are discussing, relevant to users' specific interest.
+The goal of this project is to build a recommender system that will take in a description of what a user would like to quantify, and output five URLs of the most similar subreddit `r/QuantifiedSelf` posts. This will allow the user to access what other people are discussing, relevant to users' specific interest.
 
 
 
 ## Executive Summary
 
-For someone to take control of different aspects of their life, they need the knowledge to do so. There is an increasing trend of those looking to accomplish this task by collecting personal data, on their health, sleep, finances, and more. However, for someone new to this movement, it can be overwhelming to look for the right tools that will facilitate the collection of this data. 
+For someone to take control of different aspects of their life, they need the knowledge and tools to do so. There is an increasing trend of those looking to accomplish this task by collecting personal data, on their health, sleep, finances, and more. However, for someone new to this movement, it can be overwhelming to look for the right tools that will facilitate the collection of this data. 
 
 In 2007, Gary Wolf and Kelly Kelly started a website called [The Quantified Self](https://quantifiedself.com/), that would facilitate support of these personal projects by leveraging the power of community. 
 
@@ -43,5 +43,18 @@ Click on image below for "The quantified self" YouTube Video from New Scientist.
 ## Model and Recomender System
 
 [03-Topic Modeling](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/03_Topic_Modeling.ipynb)<br>
+
+Topic Modeling, specifically Latent Dirichlet Allocation was used during exploratory analysis. The objective of applying LDA as a modeling technique on the text data was to find general umbrella topics that summarize the area in a persons life that can be quantified. Some of the expected topics were health and finance or more specific topics, for example, sleep, cardiovascular health, diet, and other similar subtopics. 
+
+Using Scikit-Learn's Latent Dirichlet Allocation algorithm, five topics or "number of components" were output. These did not correspond with initial expectations but did reveal more insight into the content of the posts. 
+
+Description of Topics: 
+
+Topic #0 - Terms associated with the general description of the "QuantifiedSelf" movement; quantified, self, personal, survey, share, model, life, theory, research. 
+Topic #1 - Terms related to Reddit platform; subreddit, review, spam, moderator, comment, request. 
+Topic #2 - Terms that describe the tools or features of these tools that record or export the data; google, export, android, log, tool. 
+Topic #3 - Medical terms or posts that discuss monitoring more granular health data; gyroscope, blood, test, measure, glucose, monitor. 
+Topic #4 - Terms that correspond with the popular trend of using wearables such as Fitbit to monitor activity or sleep; fitbit, device, watch, wearable, activity. 
+
 [04-Recommender System](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/04_Recommender_System.ipynb)
 
