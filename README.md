@@ -57,3 +57,4 @@ Using Scikit-Learn's Latent Dirichlet Allocation algorithm, five topics or "numb
 
 [04-Recommender System](https://github.com/ixchelfrg/General_Assembly_DSI_Capstone/blob/master/04_Recommender_System.ipynb)
 
+Cloning test on local computer.
